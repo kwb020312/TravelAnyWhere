@@ -14,11 +14,12 @@ const Hero = () => {
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
-        <h1 className="bold-52 lg:bold-88">Putuk Truno Camp Area</h1>
-        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          We want to be on each of your journeys seeking the satisfaction of
-          seeing the incorruptible beauty of nature. We can help you on an
-          adventure around the world in just one app
+        <h1 className="bold-52 lg:bold-88 break-keep">
+          전 세계의 여행장소들로
+        </h1>
+        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px] break-keep">
+          회사생활 하며 자연의 아름다움을 보지 못하는 여러분과 동반하고싶어요.
+          Hilink 앱으로 전 세계 여행을 떠나자구요!
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
@@ -36,17 +37,15 @@ const Hero = () => {
               ))}
           </div>
           <p className="bold-16 lg:bold-20 text-blue-70">
-            198k
-            <span className="regular-16 lg:regular-20 ml-1">
-              Excellent Reviews
-            </span>
+            198,000+
+            <span className="regular-16 lg:regular-20 ml-1">사용자 리뷰</span>
           </p>
         </div>
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="Download App" variant="btn_green" />
+          <Button type="button" title="앱 다운로드" variant="btn_green" />
           <Button
             type="button"
-            title="How we work?"
+            title="우리는 어떤 일을 하나요?"
             icon="/play.svg"
             variant="btn_white_text"
           />
@@ -57,7 +56,7 @@ const Hero = () => {
         <div className="relative flex z-20 w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
           <div className="flex flex-col">
             <div className="flexBetween">
-              <p className="regular-16 text-gray-20">Location</p>
+              <p className="regular-16 text-gray-20">장소</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
             <p className="bold-20 text-white">Aguas Calientes</p>
@@ -65,12 +64,12 @@ const Hero = () => {
 
           <div className="flexBetween">
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Distance</p>
-              <p className="bold-20 text-white">173.28 mi</p>
+              <p className="regular-16 block text-gray-20">등산로</p>
+              <p className="bold-20 text-white">279 km</p>
             </div>
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Elevation</p>
-              <p className="bold-20 text-white">2.040 km</p>
+              <p className="regular-16 block text-gray-20">고도</p>
+              <p className="bold-20 text-white">2,040 km</p>
             </div>
           </div>
         </div>

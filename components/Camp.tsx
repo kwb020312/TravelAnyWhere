@@ -55,28 +55,27 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite
           backgroundImage="bg-bg-img-1"
-          title="Putuk Truno Camp"
+          title="Putuk Truno 캠프"
           subtitle="Prigen, Pasuruan"
-          peopleJoined="50+ Joined"
+          peopleJoined="50+ 참여"
         />
         <CampSite
           backgroundImage="bg-bg-img-2"
-          title="Mountain View Camp"
-          subtitle="Somewhere in the Wilderness"
-          peopleJoined="50+ Joined"
+          title="Mountain View 캠프"
+          subtitle="자연의 어딘가"
+          peopleJoined="50+ 참여"
         />
       </div>
 
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
         <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
-          <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
-            <strong>Feeling Lost</strong> And Not Knowing The Way?
+          <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white break-keep">
+            <strong>가끔 길을 잃은 느낌이들고</strong> 어디로 가야할지
+            모르겠나요?
           </h2>
-          <p className="regular-14 xl:regular-16 mt-5 text-white">
-            Starting from the anxiety of the climbers when visiting a new
-            climbing location, the possibility of getting lost is very large.
-            That's why we are here for those of you who want to start an
-            adventure
+          <p className="regular-14 xl:regular-16 mt-5 text-white break-keep">
+            새로운 장소를 갈 때 불안감을 비롯한 요인으로 길을 잃는 당신을 위해,
+            우리는 모험을 시작하고 싶은 분들을 위해 여기 있습니다
           </p>
           <Image
             src="/quote.svg"

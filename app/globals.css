@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Spoqa;
+  src: url("/fonts/SCDream5.otf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +16,7 @@
 }
 
 body {
-  font-family: Inter;
+  font-family: Spoqa;
 }
 
 @layer utilities {
