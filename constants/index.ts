@@ -32,7 +32,7 @@ export const FEATURES = [
       "친구들과 함께 모험을 계획해보세요. 휴일에는 Hilink에서 흥미로운 제안을 많이 제공합니다. 너 혹시 P야?",
   },
   {
-    title: "증강현실을 활용한 기술!",
+    title: "빅 데이터를 활용한 기술!",
     icon: "/tech.svg",
     variant: "green",
     description:
